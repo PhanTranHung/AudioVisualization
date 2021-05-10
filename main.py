@@ -5,11 +5,11 @@ import pyaudio
 from scipy.ndimage.filters import gaussian_filter1d
 import wave
 
-INPUT = False
+INPUT = True
 
-wav_file_path = '../wav/This Dot Song.wav'
-# wav_file_path = '../wav/StarWars3.wav'
-# wav_file_path = '../wav/Solo Dance.wav'
+# wav_file_path = '/wav/This Dot Song.wav'
+# wav_file_path = 'wav/StarWars3.wav'
+# wav_file_path = 'wav/Solo Dance.wav'
 if not INPUT:
     wf = wave.open(wav_file_path, 'rb')
 

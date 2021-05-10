@@ -1,0 +1,11 @@
+//config
+enable Stereo Mix
+
+// cmd
+conda create --name visualization-env python=3.7
+conda activate visualization-env
+conda install numpy scipy pyqtgraph matplotlib pyaudio
+pip install librosa
+
+//run 
+python main.py
